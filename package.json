@@ -1,0 +1,33 @@
+{
+  "name": "ccode-pro",
+  "version": "1.0.0",
+  "description": "Token-optimized Claude Code wrapper with 70-90% token reduction",
+  "bin": {
+    "ccode": "./cli/ccode.js"
+  },
+  "scripts": {
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "keywords": [
+    "claude",
+    "code",
+    "ai",
+    "token-optimization",
+    "coding-assistant"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ccode-pro"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "glob": "^10.3.0"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
